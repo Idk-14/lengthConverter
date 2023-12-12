@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Montserrat&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root
+{
+    --color-primary: #5c677d;
+    --color-second: #979dac;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, var(--color-primary), var(--color-second));
+    height: 100vh;
+    font-family: 'Kanit', sans-serif;
+}
+
+.container
+{
+    text-align: center;
+    justify-content: center;
+}
+
+.title
+{
+    font-size: 30px;
+}
+
+.container_centimeters
+{
+    padding: 10px;
+    align-items: center;
+}
+
+.container_centimeters h1{
+    font-size: 20px;
+}
+
+.container_centimeters input
+{
+    outline: none;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    color:  rgba(255, 255, 255, 0.644);
+    background-color: rgba(0, 0, 0, 0.281);
+    border-radius: 5px;
+}
+
+.converter
+{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.converter h1{
+    font-size: 20px;
+}
+
+.converter input
+{
+    outline: none;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.644);
+    background-color: rgba(0, 0, 0, 0.281);
+    border-radius: 5px;
+}
+
+/* This code hides the inputs arrows */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button 
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] 
+{
+    appearance:textfield;
+}
+/*  */
